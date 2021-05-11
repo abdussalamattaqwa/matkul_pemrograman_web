@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operator Aritmatika</title>
+  </head>
+  <body bgcolor="silver">
+    <h2><u>Operasi Tanggal & Waktu</u></h2>
+    <font size=4>
+      <script language="JavaScript">
+        var tgl = new Date(), bln;
+        var d = tgl.getSeconds();
+        var m = tgl.getMinutes();
+        var h = tgl.getHours();
+        // console.log(tgl);
+        // console.log(m);
+        // console.log(h);
+        var hari = new Array("Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu");
+        var bulan = new Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" );
+        bln = tgl.getMonth()+1;
+        document.write(tgl);
+        document.write("<br><br><u> Operasi Tanggal");
+        document.write("<br>Hari ini = " + hari[tgl.getDay()]);
+        document.write("<br> Tanggal = " + tgl.getDate());
+        document.write("<br> Bulan = " + bln +" ("+bulan[tgl.getMonth()]+")" );
+        document.write("<br> Tahun = " + tgl.getFullYear());
+        document.write("<br> <br> <u> Operasi Waktu </u>");
+        document.write("<br> Hari ini Jam " +h+ " lewat ");
+        document.write(m + " menit dan " + d + " detik")
+      </script>
+  </body>
+</html>

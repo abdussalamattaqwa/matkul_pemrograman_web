@@ -1,0 +1,364 @@
+* {
+  margin = 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(36, 175, 249);
+}
+
+a:hover{
+  color: brown;
+}
+
+body{
+  font-family: arial, sans-serif;
+}
+hr{
+  background-color: #efefef;
+  height: 2px;
+}
+.navbar {
+  color: white;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  margin: auto;
+}
+
+.navKontent{
+  width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+
+.navKontent img{
+  float: left;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.garis {
+  float: left;
+  width: 3px;
+  height: 50px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.navKontent p {
+  display: block;
+  color: black;
+  margin-top: 40px;
+  font-family: arial, sans-serif;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navKontent input {
+  float: right;
+  margin-top: -20px;
+  position: relative;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+}
+
+.menu{
+  text-align: center;
+  background-color: white;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+
+.menu ul li a{
+  display: inline-block;
+  margin-top: 10px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.menu ul li:nth-child(1) a{
+  color: black;
+}
+
+.menu ul li a:hover{
+  color: brown;
+}
+
+.sidebarKiri{
+  width: 20%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.sidebarKiri .profil ul li{
+  margin: 5px;
+  margin-bottom: 10px;
+  font-family: arial, sans-serif;
+  border-bottom: 3px solid #efefef;
+  padding-bottom: 5px;
+}
+
+.sidebarKiri h1 {
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.gambarSlide{
+  text-align: center;
+}
+
+.kontent{
+  width: 60%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.berita h1{
+    color: rgb(36, 175, 249);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.berita p{
+  font-family: arial, sans-serif;
+  font-stretch: condensed;
+  font-variant-caps: normal;
+  color: #aa9a9a;
+}
+
+.berita p span{
+  color: rgb(36, 175, 249);
+}
+
+.berita a {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.berita a:nth-last-child(1){
+  font-family: arial, sans-serif;
+}
+
+.berita .gBerita {
+  margin-right: 10px;
+}
+
+.berita .teks {
+  color: black;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.berita  .linkLengkap {
+  margin-top: 10px;
+  float: left;
+}
+
+.berita {
+  border-bottom: 3px solid #efefef;
+  margin-bottom: 10px;
+}
+
+.moreArticle h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.moreArticle ol li{
+  margin-left: 10px;
+  font-family: arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+.moreArticle span{
+  color: black;
+}
+.sidebarKanan{
+  width: 20%;
+  height: 500px;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+
+.sidebarKanan ul li{
+  margin: 5px;
+  margin-bottom: 10px;
+  font-family: arial, sans-serif;
+  border-bottom: 5px solid #efefef;
+  padding-bottom: 5px;
+}
+
+.sidebarKanan h1 {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+.clear{
+  clear: both;
+}
+
+.menuBawah{
+  width: 100%;
+  background-color: #444;
+  font-size: 40px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.menuBawah h6 {
+  font-size: 13px;
+  color: orange;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+.menuBawah li a {
+  font-size: 11px;
+  font-family: arial, sans-serif;
+  color: white;
+}
+
+.menuBawah li{
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: white;
+}
+
+.subMenuBawah {
+  margin-left: 15px;
+  float: left;
+}
+
+.garisMenu {
+  width: 3px;
+  height: 12px;
+  background-color: lightgreen;
+  float: left;
+  margin-right: 10px;
+}
+
+.footer{
+  color: black;
+}
+
+.footer, .menuFooter{
+  background-color: #eaeaea;
+}
+
+.footer p:nth-child(1) {
+  font-family: arial, sans-serif;
+  padding-left: 60px;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 14px;
+  border-bottom: 3px solid #cecece;
+}
+
+.footer .menuFooter{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer ul li {
+   display: inline-block;
+   margin-bottom: 10px;
+}
+
+.footer .menuFooter p {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.footer .menuFooter p:nth-last-child(1){
+  margin-top: 20px;
+}
+
+.hero{
+  height: 270px;
+  background-image: url(../img/vision.jpg);
+  background-size: cover;
+  background-position: 0 -20px;;
+  background-repeat: no-repeat;
+}
+
+
+body{
+  background-image: url(../img/pinisi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
